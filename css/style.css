@@ -1,0 +1,449 @@
+/* colorscheme: */
+/* rgb(255, 255, 255); */
+/* rgba(71, 103, 23, 0.581) */
+
+/* #BDC68F
+#FAEFDB
+#FBFFFF
+#3A4620
+#729080
+#718F71
+
+#545844
+#748A40
+#E2DEBA
+#BDC68F
+#788E71
+
+#A0B2AC
+#213A34
+#436256
+#050805
+#303520 */
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans",Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 1.1vw;
+
+}
+
+* h1{
+  font-size: 2vw;
+}
+
+* h2{
+  font-size: 1.5vw;
+}
+
+
+
+header {
+    height: 15vh;
+}
+
+header nav ul {
+    list-style: none;
+    display:inline-flex;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    gap: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: #FBFFFF;
+    }
+    
+.nav-right {
+    margin-left: 40%;
+    }
+.nav-left {
+    margin-left: 2%;
+    }
+
+#icon {
+    height: 5vw;  
+    vertical-align: middle;
+}
+
+
+body{
+    background-color: #718F71;
+    color: #FBFFFF;
+    }
+
+section {
+    height: 70vh;
+    overflow-y: scroll;
+
+}
+
+.short_section {
+    height: 35vh;
+}
+
+.medium_section {
+    height: 55vh;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro {
+    background-image: url("../Images/Trees.png");
+    background-size: 100%;
+    background-color: #718f7149;
+    background-blend-mode: multiply;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+
+
+    border: 1px solid #FAEFDB;
+}
+
+.columns {
+    display: flex;
+}
+
+/* Create two equal columns that float next to each other */
+.column-2-1 {
+    flex: 10%;
+    background-color: #FAEFDB;
+    margin-left: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3A4620;
+    border-radius: 10%;
+  }
+
+  .column-2-2 {
+    line-height:1.7;
+    flex: 60%;
+    padding: 5%;
+    background-color: #FAEFDB;
+    margin:30px;
+    text-align: center;
+    border: 1px solid #3A4620;
+    border-radius: 10%;
+    margin-right: 7%;
+    color: #3A4620;
+    
+  }
+
+  #hannah-sunset {
+    height: 30vw;  
+    border: 10px solid #FAEFDB;
+    border-radius: 10%;
+    /* clip-path: polygon(0% 90%, 0% 10%, 100% 20%, 100% 100%); */
+}
+
+.column-2-2 h1 {
+    margin-top: 2%;
+    font-size: 3em;
+}
+
+#updates {
+    margin-left: 15vw;
+    line-height:2;
+}
+
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+
+}
+
+#contact a{
+    text-decoration: none;
+    color: #3A4620;
+}
+
+.column-3_2-1 {
+    flex: 30%;
+    border-radius: 10%;
+    line-height:1.7;
+    padding: 3%;
+    margin-left: 6%;
+    text-align: center;
+    height:35vw;
+    background-color: #FAEFDB;
+    border: 1px solid #3A4620;
+    color: #3A4620;
+    padding-top: 6%;
+  }
+
+  .column-3_2-2 {
+    flex: 40%;
+    margin:5px;
+    height:35vw;
+    
+  }
+
+  .column-3_2-3 {
+    line-height:1.7;
+    flex: 30%;
+    margin-right: 6%;
+    padding: 2%;
+    text-align: center;
+    border-radius: 10%;
+    background-color: #FAEFDB;
+    border: 1px solid #3A4620;
+    color: #3A4620;
+    height:35vw;
+    padding-top: 6%;
+
+    
+  }
+
+  #hannah-lake {
+    height: 35vw;  
+    border-radius: 10%;
+
+  }
+
+#contact_methods {
+    padding-left: 10%;
+    list-style: none;
+
+}
+
+#contact_flower{
+    height: 15vw;  
+}
+
+#about_overview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+
+}
+
+/* Create three equal columns that float next to each other */
+.column-3-1 {
+    flex: 30%;
+    border-radius: 10%;
+    line-height:1.7;
+    padding: 0%;
+    margin-left: 6%;
+    text-align: left;
+    height:35vw;
+    background-color: #FAEFDB;
+    border: 1px solid #3A4620;
+    color: #3A4620;
+    padding-top: 6%;
+  }
+
+  .column-3-2 {
+    line-height:1.7;
+    flex: 40%;
+    padding: 2%;
+    margin:5px;
+    text-align: center;
+    border-radius: 10%;
+    background-color: #FAEFDB;
+    border: 1px solid #3A4620;
+    color: #3A4620;
+    height:35vw;
+    padding-top: 6%;
+    
+  }
+
+  .column-3-3 {
+    flex: 30%;
+    margin-right: 6%;
+    height:35vw;
+
+    
+  }
+
+#hannah-garden {
+    height: 35vw;  
+    border-radius: 10%;
+
+}
+
+#passions {
+    padding-left: 15%;
+}
+
+.column-3-1 h1{
+  text-align: center;
+}
+
+
+#bio {
+    margin: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bio h1 {
+    font-size: 3em;
+    margin-bottom: 1%;
+}
+
+.column-2_2-1 {
+    flex: 25%;
+    margin-left: 1%;
+  }
+
+  .column-2_2-2 {
+    line-height:1.7;
+    flex: 60%;
+    text-align: left;
+    
+  }
+
+#hannah-dance {
+    height: 38vw;  
+    border-radius: 10%;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.theme_flower{
+    height: 15vw;
+}
+
+.spacer_flower{
+   padding-top: 40%;
+   margin-left: 15%;
+   width: 80%;
+}
+
+#themes ul {
+    list-style: none;
+    display:inline-flex;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#cv object{
+    width: 85%;
+    height: 70vh;
+    margin: 5%;
+}
+
+#projects_list {
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+
+.image-cover {
+    background: #FAEFDB;
+    border: 1px solid #34495e;
+    width: 17vw;
+    height: 17vw;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10%;
+  }
+
+  .column-2_3-1 {
+    flex: 25%;
+    margin-left: 1%;
+  }
+
+  .column-2_3-2 {
+    line-height:1.7;
+    flex: 60%;
+    text-align: left;
+    
+  }
+
+  #glimmers_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+}
+
+.column-3_3-1 {
+    flex: 30%;
+    border-radius: 10%;
+    padding: 3%;
+    margin-left: 6%;
+    height:32vw;
+    background-color: #FAEFDB;
+    border: 1px solid #3A4620;
+  }
+
+  .column-3_3-2 {
+    flex: 20%;
+    /* margin:5px; */
+    height:35vw;
+    
+  }
+
+  .column-3_3-3 {
+    flex: 30%;
+    margin-right: 6%;
+    padding: 3%;
+    border-radius: 10%;
+    background-color: #FAEFDB;
+    border: 1px solid #3A4620;
+    height:32vw;
+
+    
+  }
+
+  #hannah-library1 {
+    height: 32vw;  
+    border-radius: 10%;
+  }
+
+  #hannah-bled {
+    height: 33vw; 
+    border-radius: 10%;
+  }
+
+  #hannah-library2 {
+    height: 32vw;  
+    border-radius: 10%;
+  }
+
+  #glimmers_list{
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.image-cover2 {
+    width: 7vw;
+    height: 7vw;
+    object-fit: cover;
+    object-position: center;
+  }
+
+footer {
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: #3A4620;
+}
