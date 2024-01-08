@@ -89,6 +89,10 @@ section {
     height: 35vh;
 }
 
+.long_section {
+  height: 97vh;
+}
+
 .medium_section {
     height: 55vh;
 }
@@ -315,7 +319,7 @@ section {
   }
 
 #hannah-dance {
-    height: 38vw;  
+    height: 43vw;  
     border-radius: 10%;
 }
 
