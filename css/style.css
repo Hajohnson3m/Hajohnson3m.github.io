@@ -90,7 +90,7 @@ section {
 }
 
 .long_section {
-  height: 97vh;
+  height: 190vh;
 }
 
 .medium_section {
@@ -266,9 +266,11 @@ section {
     border: 1px solid #3A4620;
     color: #3A4620;
     height:35vw;
-    padding-top: 6%;
+    padding-top: 2%;
+
     
   }
+
 
   .column-3-3 {
     flex: 30%;
